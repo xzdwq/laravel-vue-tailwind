@@ -4,7 +4,7 @@
 3. `composer update`
 4. `npm i`
 
-## Корректировка базового профикса роутинка
+## Корректировка базового профикса роутинга
 В файле `resources/js/router.js` удалить аргумент функции `history: createWebHistory('/osdev/l8v3/public/')` (т.е. `history: createWebHistory()`)
 
 ## Разработка
