@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>xzdwq.inq</title>
-  <link rel="stylesheet" href="{{asset('css/bootstrap/bootstrap-icons/font/bootstrap-icons.css')}}">
   <link rel="stylesheet" href="{{asset('css/bootstrap/css/bootstrap.min.css')}}">
 </head>
 
