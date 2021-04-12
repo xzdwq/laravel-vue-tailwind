@@ -5,7 +5,7 @@
 4. `npm i`
 
 ## Корректировка базового профикса роутинга
-В файле `resources/js/router.js` удалить аргумент функции `history: createWebHistory('/osdev/l8v3/public/')` (т.е. `history: createWebHistory()`)
+В файле `resources/js/router.js` удалить аргумент функции `history: createWebHistory('/osdev/l8v3/public/')` (т.е. заменить на: `history: createWebHistory()`)
 
 ## Разработка
 Для обновления именений в компонентах Vue (моентальной пересборки при изменениях):  
