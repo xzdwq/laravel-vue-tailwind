@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ClientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('index');
-// });
+Route::get('/', [ ClientController::class, 'index']);
 
-Route::get('/{any}', function () {
-  return view('index');
-})->where('any', '.*');
+Route::get('/dashboard', [ DashboardController::class, 'index']);
+Route::get('/dashboard/{any}', [ DashboardController::class, 'index'])->where('any', '(.*)');
