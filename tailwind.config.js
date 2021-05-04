@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors')
 
 module.exports = {
   future: {
@@ -8,17 +9,22 @@ module.exports = {
   purge: [
     "./storage/framework/views/*.php",
     "./resources/**/*.blade.php",
-    "./resources/**/*.js",
-    "./resources/**/*.vue",
+    './resources/**/*.{vue,js,ts,jsx,tsx}'
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    // Добавление своих стилей
     extend: {
       fontFamily: {
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        sample: "#eee",
+        transparent: 'transparent',
+        current: 'currentColor',
+        indigo: {
+          400: colors.indigo['400'], //class="text-indigo-400"
+          450: '#202e78' //class="text-indigo-450"
+        },
       },
     },
   },
@@ -27,5 +33,7 @@ module.exports = {
       opacity: ['disabled'],
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }

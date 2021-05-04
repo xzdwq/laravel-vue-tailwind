@@ -16855,7 +16855,7 @@ var _hoisted_1 = {
   "class": "w-1/2 bg-white rounded-lg shadow-lg mx-auto p-4"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div data-v-be87ebea><div data-v-be87ebea><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>Vue 3</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>+</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>Laravel 8</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>+</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>Tailwindcss 2</h1></div></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div data-v-be87ebea><div data-v-be87ebea><h1 class=\"text-2xl text-indigo-400 text-center mb-4\" data-v-be87ebea>Vue 3</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>+</h1><h1 class=\"text-2xl text-indigo-450 text-center mb-4\" data-v-be87ebea>Laravel 8</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>+</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>Tailwindcss 2</h1></div></div>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
