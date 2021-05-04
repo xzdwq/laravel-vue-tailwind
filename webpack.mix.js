@@ -1,5 +1,6 @@
-const mix = require('laravel-mix');
-const webpack = require('webpack');
+const mix = require('laravel-mix')
+const webpack = require('webpack')
+require('dotenv').config()
 
 /*
  |--------------------------------------------------------------------------
@@ -14,8 +15,12 @@ const webpack = require('webpack');
 
 mix.js('resources/js/client/client.js', 'public/js')
     .js('resources/js/dashboard/dashboard.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [])
     .vue({ version: 3 })
+    .postCss('resources/css/app.css', 'public/css', [
+      require('postcss-import'),
+      require('tailwindcss'),
+      require('autoprefixer'),
+    ])
     .webpackConfig({
       plugins: [
         new webpack.DefinePlugin({
@@ -29,4 +34,4 @@ mix.js('resources/js/client/client.js', 'public/js')
           '@': __dirname + '/resources',
         },
       },
-    });
+    })

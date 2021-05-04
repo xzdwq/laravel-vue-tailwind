@@ -23,6 +23,9 @@
         "vue-loader": "^16.2.0"
     },
     "dependencies": {
+        "@tailwindcss/forms": "^0.3.2",
+        "alpinejs": "^2.8.2",
+        "postcss-import": "^14.0.1",
         "vue-router": "^4.0.6"
     }
 }

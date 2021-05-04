@@ -8,7 +8,7 @@
 </template>
 
 <script>
-  import HeaderNavbar from './HeaderNavbar';
+  import HeaderNavbar from './components/HeaderNavbar';
   export default {
     components: {
       HeaderNavbar

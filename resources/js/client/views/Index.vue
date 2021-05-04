@@ -1,14 +1,13 @@
 <template>
-  <div>
-    <span>123</span>
+  <div class="w-1/2 bg-white rounded-lg shadow-lg mx-auto p-4">
     <div >
       <div>
-        <h1>Vue 3</h1>
+        <h1 class="text-2xl text-gray-700 text-center mb-4">Vue 3</h1>
 
-        <h1>+</h1>
-        <h1>Laravel 8</h1>
-        <h1>+</h1>
-        <h1>Tailwindcss 2</h1>
+        <h1 class="text-2xl text-gray-700 text-center mb-4">+</h1>
+        <h1 class="text-2xl text-gray-700 text-center mb-4">Laravel 8</h1>
+        <h1 class="text-2xl text-gray-700 text-center mb-4">+</h1>
+        <h1 class="text-2xl text-gray-700 text-center mb-4">Tailwindcss 2</h1>
       </div>
     </div>
   </div>
