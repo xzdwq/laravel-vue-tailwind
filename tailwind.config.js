@@ -4,14 +4,13 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
   },
   purge: [
     "./storage/framework/views/*.php",
     "./resources/**/*.blade.php",
     './resources/**/*.{vue,js,ts,jsx,tsx}'
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or false or 'media' or 'class'
   theme: {
     // Добавление своих стилей
     extend: {
@@ -27,6 +26,10 @@ module.exports = {
         },
       },
     },
+    container: {
+      center: true,
+      padding: '2rem'
+    }
   },
   variants: {
     extend: {

@@ -13,6 +13,7 @@
 <script>
   export default {
     name: 'header-navbar',
+    components: {},
     data: () => ({
       links: [
         {

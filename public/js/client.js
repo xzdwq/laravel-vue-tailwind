@@ -16724,6 +16724,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'header-navbar',
+  components: {},
   data: function data() {
     return {
       links: [{
@@ -16852,10 +16853,10 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-be87ebea");
 
 var _hoisted_1 = {
-  "class": "w-1/2 bg-white rounded-lg shadow-lg mx-auto p-4"
+  "class": "container bg-white dark:bg-black"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div data-v-be87ebea><div data-v-be87ebea><h1 class=\"text-2xl text-indigo-400 text-center mb-4\" data-v-be87ebea>Vue 3</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>+</h1><h1 class=\"text-2xl text-indigo-450 text-center mb-4\" data-v-be87ebea>Laravel 8</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>+</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>Tailwindcss 2</h1></div></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-1/2 bg-white rounded-lg shadow-lg mx-auto p-4\" data-v-be87ebea><div data-v-be87ebea><h1 class=\"text-2xl text-indigo-400 text-center mb-4\" data-v-be87ebea>Vue 3</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>+</h1><h1 class=\"text-2xl text-indigo-450 text-center mb-4\" data-v-be87ebea>Laravel 8</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>+</h1><h1 class=\"text-2xl text-gray-700 text-center mb-4\" data-v-be87ebea>Tailwindcss 2</h1></div></div>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
